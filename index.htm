@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="assets\style\style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8"/>
+        <title>Coding Quiz</title>
+    </head>
+    <body>
+        <header>
+            <h3 class="scores">View High Scores</h1>
+            <h3 class="timer">Time= <span id="time"></span></h3>
+        </header>
+        <div id="intro">
+            <h1>Welcome to the coding quiz!</h1>
+            <p>Try to answers the questions to your best knowledge, get your smart hat on and get ready!</p>
+            <button id="button">start quiz</button>
+        </div>
+        <div id="questionBox">
+            <h2 class="question"><span id="question"></span></h2>
+            <ul class="answers">
+                <!--list item element-->
+                <li onclick="quiz()" >
+                    <span id="ansOne"></span>
+                </li>
+                <li onclick="quiz()">
+                    <span id="ansTwo"></span>
+                </li>
+                <li onclick="quiz()" >
+                    <span id="ansThree"></span>
+                </li >
+                <li onclick="quiz()">
+                    <span id="ansFour"></span>
+                </li>
+            </ul>
+
+        </div>
+        <div id="end">
+            <h2>You are Done!</h2>
+            <h3>Your score is: <span id="score"></span></h3>
+        </div>
+
+        <script src="assets\java.js"> </script> 
+    </body>

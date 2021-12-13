@@ -1,0 +1,85 @@
+/*removing browser dafaults styling*/
+/* the * acts as a select all*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+header{
+    padding: 25px 30px;
+    background-color: #d320c4;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(5, 9, 231);
+}
+.scores{
+    margin-right: 50%;
+}
+.timer{
+    margin-left: 30%;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+#intro{
+    
+    padding: 400px;
+    background-color: #2cda15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+   
+}
+#intro p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#button{
+    padding: 15px;
+}
+#questionBox{
+    padding: 400px;
+    background-color: #2cda15;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    
+}
+#questionBox h2{
+color: black;
+}
+#questionBox ul{
+    list-style-type: none;
+}
+#questionBox li{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 3px solid rgb(231, 5, 201);;
+    background-color: rgb(231, 5, 201);;
+    color: white;
+}
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+#end{
+     
+    padding: 400px;
+    background-color: #2cda15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    display: none;
+   
+}
