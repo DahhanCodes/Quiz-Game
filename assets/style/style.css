@@ -71,6 +71,8 @@ color: black;
 #createDiv {
     margin-top: 20px;
     border-top: 1px solid lightgray;
+    color: black;
+    
 }
 #end{
      
@@ -82,4 +84,7 @@ color: black;
     color: black;
     display: none;
    
+}
+.message{
+    display: flex;
 }

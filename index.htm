@@ -8,8 +8,8 @@
     </head>
     <body>
         <header>
-            <h3 class="scores">View High Scores</h1>
-            <h3 class="timer">Time= <span id="time"></span></h3>
+            <h3 id="highScores">View High Scores</h1>
+            <h3 class="timer">Time= <span id="time"></span>:00</h3>
         </header>
         <div id="intro">
             <h1>Welcome to the coding quiz!</h1>
@@ -20,16 +20,16 @@
             <h2 class="question"><span id="question"></span></h2>
             <ul class="answers">
                 <!--list item element-->
-                <li onclick="quiz()" >
+                <li>
                     <span id="ansOne"></span>
                 </li>
-                <li onclick="quiz()">
+                <li>
                     <span id="ansTwo"></span>
                 </li>
-                <li onclick="quiz()" >
+                <li>
                     <span id="ansThree"></span>
-                </li >
-                <li onclick="quiz()">
+                </li>
+                <li>
                     <span id="ansFour"></span>
                 </li>
             </ul>
@@ -37,8 +37,14 @@
         </div>
         <div id="end">
             <h2>You are Done!</h2>
-            <h3>Your score is: <span id="score"></span></h3>
+            <h3>Your score is: <span id="score"></span>/5</h3>
+            <label for="name">Enter name:</label>
+            <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
         </div>
-
+        <div id="scorePage">
+            <h2>High Scores</h2>
+            <p><span id="scoreList"></span></p>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="assets\java.js"> </script> 
     </body>
